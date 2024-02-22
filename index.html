@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Etch A Sketch</h1>
+    </header>
+    <!-- game -->
+    <div class="container">
+        <section class="control">
+            <button id="change_grid">Change Grid</button>
+            <div class="choose_pen">
+                <button id="default_pen">Default Color</button>
+                <button id="random_pen">Random Color</button>
+            </div>
+            <button id="reset">Reset</button>
+        </section>
+        <section class="grid_container">
+            <div id="grid"></div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
